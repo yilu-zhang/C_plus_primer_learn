@@ -21,9 +21,27 @@
     <ClCompile Include="chapter_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter_4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter_5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter_4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter_5.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
