@@ -30,6 +30,12 @@
     <ClCompile Include="chapter_5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="concurrent_thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="orb_slam2_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter_2.h">
@@ -42,6 +48,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="chapter_5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent_thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="orb_slam2_test.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

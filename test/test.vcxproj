@@ -150,13 +150,17 @@
     <ClCompile Include="chapter_3.cpp" />
     <ClCompile Include="chapter_4.cpp" />
     <ClCompile Include="chapter_5.cpp" />
+    <ClCompile Include="concurrent_thread.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="orb_slam2_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter_2.h" />
     <ClInclude Include="chapter_3.h" />
     <ClInclude Include="chapter_4.h" />
     <ClInclude Include="chapter_5.h" />
+    <ClInclude Include="concurrent_thread.h" />
+    <ClInclude Include="orb_slam2_test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

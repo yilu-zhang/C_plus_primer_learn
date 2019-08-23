@@ -1,5 +1,5 @@
-#ifndef CHAPTER_2
-#define CHAPTER_2
+#ifndef __CHAPTER_2_H
+#define __CHAPTER_2_H
 
 void section_2_2();
 void section_2_4();
