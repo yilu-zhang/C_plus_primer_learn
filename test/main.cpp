@@ -25,5 +25,6 @@ int main(int argc, char** argv)
 	//concurren_thread_main();
 	//concurrent_thread_mutex_main();
 
-	opencv_test();
+	//opencv_test();
+	image_operation();
 }
