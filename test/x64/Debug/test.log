@@ -1,113 +1,89 @@
-﻿  orb_slam2_test.cpp
-c:\1a_person\work\code\c++\c++_primer_learn\test\orb_slam2_test.cpp(67): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-c:\1a_person\work\code\c++\c++_primer_learn\test\orb_slam2_test.cpp(68): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
-c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: 参见对正在编译的函数 模板 实例化“void std::allocator<_Ty>::construct<_Objty,float&>(_Objty *,float &)”的引用
+﻿  chapter_2.cpp
+  chapter_3.cpp
+  chapter_4.cpp
+E:\postgraduate\code\C++\C++_primer_learn\test\chapter_4.cpp(9,13): warning C4305: “初始化”: 从“int”到“bool”截断
+E:\postgraduate\code\C++\C++_primer_learn\test\chapter_4.cpp(32,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  chapter_5.cpp
+  concurrent_thread.cpp
+  main.cpp
+  orb_slam2_test.cpp
+E:\postgraduate\code\C++\C++_primer_learn\test\orb_slam2_test.cpp(67,23): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\postgraduate\code\C++\C++_primer_learn\test\orb_slam2_test.cpp(68,24): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(671,82): warning C4244: “初始化”: 从“_Ty”转换到“_Objty”，可能丢失数据
           with
           [
-              _Ty=int,
-              _Objty=int
+              _Ty=float
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: 参见对正在编译的函数 模板 实例化“void std::allocator<_Ty>::construct<_Objty,float&>(_Objty *,float &)”的引用
-          with
+          and
           [
-              _Ty=int,
               _Objty=int
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(996): note: 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,float&>(std::allocator<_Ty> &,_Objty *,float &)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(1498): message : 查看对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&>(_Alloc &,_Objty *const ,float &)”的引用
           with
           [
               _Alloc=std::allocator<int>,
               _Ty=int,
               _Objty=int
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(995): note: 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,float&>(std::allocator<_Ty> &,_Objty *,float &)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(1498): message : 查看对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&>(_Alloc &,_Objty *const ,float &)”的引用
           with
           [
               _Alloc=std::allocator<int>,
               _Ty=int,
               _Objty=int
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory(225): note: 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,float&>(_Ty *,float &)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(1533): message : 查看对正在编译的函数 模板 实例化“void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<_Ty&>(_Ty &)”的引用
           with
           [
-              _Ty=int
+              _Alloc=std::allocator<int>,
+              _Ty=float
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory(225): note: 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,float&>(_Ty *,float &)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(1533): message : 查看对正在编译的函数 模板 实例化“void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<_Ty&>(_Ty &)”的引用
           with
           [
-              _Ty=int
+              _Alloc=std::allocator<int>,
+              _Ty=float
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory(251): note: 参见对正在编译的函数 模板 实例化“_FwdIt *std::_Uninitialized_copy_al_unchecked1<_InIt,_FwdIt,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &,std::_General_ptr_iterator_tag,std::_Any_tag)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(1591): message : 查看对正在编译的函数 模板 实例化“int *std::_Uninitialized_copy<_Iter,std::allocator<int>>(const _InIt,const _InIt,int *,_Alloc &)”的引用
           with
           [
-              _FwdIt=int *,
+              _Iter=float *,
               _InIt=float *,
-              _Ty=int
+              _Alloc=std::allocator<int>
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory(264): note: 参见对正在编译的函数 模板 实例化“_FwdIt *std::_Uninitialized_copy_al_unchecked<_Iter,int*,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(497): message : 查看对正在编译的函数 模板 实例化“int *std::vector<int,std::allocator<int>>::_Ucopy<_Iter>(_Iter,_Iter,int *)”的引用
           with
           [
-              _FwdIt=int *,
+              _Iter=float *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(497): message : 查看对正在编译的函数 模板 实例化“int *std::vector<int,std::allocator<int>>::_Ucopy<_Iter>(_Iter,_Iter,int *)”的引用
+          with
+          [
+              _Iter=float *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(508): message : 查看对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<int>>::_Range_construct_or_tidy<_Ty*>(_Iter,_Iter,std::forward_iterator_tag)”的引用
+          with
+          [
+              _Ty=float,
+              _Iter=float *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vector(508): message : 查看对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<int>>::_Range_construct_or_tidy<_Ty*>(_Iter,_Iter,std::forward_iterator_tag)”的引用
+          with
+          [
+              _Ty=float,
+              _Iter=float *
+          ]
+E:\postgraduate\code\C++\C++_primer_learn\test\orb_slam2_test.cpp(72): message : 查看对正在编译的函数 模板 实例化“std::vector<int,std::allocator<int>>::vector<float*,void>(_Iter,_Iter,const _Alloc &)”的引用
+          with
+          [
               _Iter=float *,
-              _Ty=int,
-              _InIt=float *
+              _Alloc=std::allocator<int>
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1653): note: 参见对正在编译的函数 模板 实例化“_FwdIt *std::_Uninitialized_copy<_Iter,int*,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &)”的引用
+E:\postgraduate\code\C++\C++_primer_learn\test\orb_slam2_test.cpp(72): message : 查看对正在编译的函数 模板 实例化“std::vector<int,std::allocator<int>>::vector<float*,void>(_Iter,_Iter,const _Alloc &)”的引用
           with
           [
-              _FwdIt=int *,
               _Iter=float *,
-              _Ty=int,
-              _InIt=float *
+              _Alloc=std::allocator<int>
           ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(818): note: 参见对正在编译的函数 模板 实例化“int *std::vector<int,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,int *)”的引用
-          with
-          [
-              _Ty=int,
-              _Iter=float *
-          ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(818): note: 参见对正在编译的函数 模板 实例化“int *std::vector<int,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,int *)”的引用
-          with
-          [
-              _Ty=int,
-              _Iter=float *
-          ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(793): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::_Construct<_Iter>(_Iter,_Iter,std::forward_iterator_tag)”的引用
-          with
-          [
-              _Ty=int,
-              _Iter=float *
-          ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(793): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::_Construct<_Iter>(_Iter,_Iter,std::forward_iterator_tag)”的引用
-          with
-          [
-              _Ty=int,
-              _Iter=float *
-          ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(778): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::_Construct<_Iter>(_Iter,_Iter)”的引用
-          with
-          [
-              _Ty=int,
-              _Iter=float *
-          ]
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(778): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::_Construct<_Iter>(_Iter,_Iter)”的引用
-          with
-          [
-              _Ty=int,
-              _Iter=float *
-          ]
-  c:\1a_person\work\code\c++\c++_primer_learn\test\orb_slam2_test.cpp(72): note: 参见对正在编译的函数 模板 实例化“std::vector<int,std::allocator<_Ty>>::vector<float*,void>(_Iter,_Iter)”的引用
-          with
-          [
-              _Ty=int,
-              _Iter=float *
-          ]
-  c:\1a_person\work\code\c++\c++_primer_learn\test\orb_slam2_test.cpp(72): note: 参见对正在编译的函数 模板 实例化“std::vector<int,std::allocator<_Ty>>::vector<float*,void>(_Iter,_Iter)”的引用
-          with
-          [
-              _Ty=int,
-              _Iter=float *
-          ]
-  test.vcxproj -> C:\1a_person\work\code\C++\C++_primer_learn\x64\Debug\test.exe
-  test.vcxproj -> C:\1a_person\work\code\C++\C++_primer_learn\x64\Debug\test.pdb (Full PDB)
+  正在生成代码...
+  test.vcxproj -> E:\postgraduate\code\C++\C++_primer_learn\x64\Debug\test.exe
